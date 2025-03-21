@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Numbers fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lisu+Bosa&display=swap");
+
+@layer base {
+  @font-face {
+    font-family: "urbanist";
+    font-weight: 500;
+    src: url("../../public/font/Urbanist-Medium.ttf") format("ttf"),
+      url("../../public/font/Urbanist-Medium.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "urbanist";
+    font-weight: 800;
+    src: url("../../public/font/Urbanist-ExtraBold.ttf") format("ttf"),
+      url("../../public/font/Urbanist-ExtraBold.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "urbanist";
+    font-weight: 900;
+    src: url("../../public/font/Urbanist-Black.ttf") format("ttf"),
+      url("../../public/font/Urbanist-Black.woff") format("woff");
+    font-display: swap;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Numbers fonts */
+
+#price,
+#number,
+#totalItem,
+#totalPrice {
+  font-family: "Lisu Bosa", serif;
+}
